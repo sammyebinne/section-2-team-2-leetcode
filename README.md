@@ -1,1 +1,1 @@
-# section-2-leetcode
+# section-2-team-2-leetcode
