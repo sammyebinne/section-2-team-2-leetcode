@@ -8,13 +8,13 @@ Below are the pseudocode to the solutions for the leetcode challenges we're doin
 
 -- Method A
 
-Step 1 - Find the minimum and maximum
+    Step 1 - Find the minimum and maximum
 
-Step 2 -  Add the sum of all Salaries
+    Step 2 -  Add the sum of all Salaries
 
-Step 3 - Subtract the value of the minimum and the maximum elements from the sum
+    Step 3 - Subtract the value of the minimum and the maximum elements from the sum
 
-Step 4 - Return the solution from step 3 divided by array length-2
+    Step 4 - Return the solution from step 3 divided by array length-2
 
 --  Method B
 
@@ -39,3 +39,13 @@ Step 4 - Return the solution from step 3 divided by array length-2
     Step 1 - find the actual sum of numbers in the array
     Step 2 - find the Gauss's sum of the numbers in the range given
     Step 3 - the missing number will be the difference between the Gauss's sum and the actual sum. Return this difference.
+
+2. Add Two Numbers
+
+    The two linked lists given are in reversed order 
+    
+    We have to add each of their nodes in order of appearance (from first to last)
+
+    If the sum of any "set" is greater than 9, we have to carry over the first didgit, just like we would in regular mathematics
+
+    If one of the LinkedLists is longer than the other one, we can just represent that node's value by zero
