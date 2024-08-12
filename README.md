@@ -49,3 +49,12 @@ Below are the pseudocode to the solutions for the leetcode challenges we're doin
     If the sum of any "set" is greater than 9, we have to carry over the first didgit, just like we would in regular mathematics
 
     If one of the LinkedLists is longer than the other one, we can just represent that node's value by zero
+    
+
+21. Merge Two Sorted Lists
+
+    Step 1 - create a dummy node as the head of our result
+    Step 2 - use a while loop to ensure that there is at least one node to work with
+    Step 3 - use if statements to identify the smaller value in either node
+    Step 4 - append the lesser value to the next node of the result linkedlist
+    Step 5 - after exiting the while loop, check if there is a remaining unattended node and append to the result list
